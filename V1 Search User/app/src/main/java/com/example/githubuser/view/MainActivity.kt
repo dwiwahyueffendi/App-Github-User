@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
             rvUser.adapter = adapter
 
             btnSearch.setOnClickListener{
-
+                searchUser()
             }
 
             etQuery.setOnKeyListener { v, keyCode, event ->
